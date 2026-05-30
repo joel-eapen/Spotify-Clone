@@ -1,0 +1,25 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "Spotify Clone",
+  "keywords": [
+    "node",
+    "js",
+    "backend",
+    "authentication"
+  ],
+  "license": "ISC",
+  "author": "Joel B Eapen",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.3"
+  }
+}
